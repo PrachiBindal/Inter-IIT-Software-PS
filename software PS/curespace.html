@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="curespace.css">
+    <!-- bootstrap style sheet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- bootstrap js style sheet  -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/c7ad16ddf9.js" crossorigin="anonymous"></script>
+    <title>CureSpace</title>
+</head>
+<body>
+    <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand logo_name" href="#">
+                        <img src="./images/CURE (2).png" alt="Logo" width="70" height="54" class="d-inline-block align-text-center">
+                        CureSpace
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse home" id="navbarNavAltMarkup">
+                        <div class="navbar-nav left_nav">
+                            <a class="nav-link active" aria-current="page" href="Community.html">Community</a>
+                            <a class="nav-link active" aria-current="page" href="Awareness.html">Awareness</a>
+                            <a class="nav-link active" aria-current="page" href="Guidance.html">Guidance</a>    
+                        </div>
+                        <div class="navbar-nav right_nav">
+                            <a href="login.html"><button class="btn btn-primary login" type="submit">Login</button></a>
+                            <button type="button" class="btn btn-primary notification"><i class="fa-solid fa-bell fa-lg"></i></button>
+                        </div>
+                    </div>
+                    
+                </div>
+              </nav>
+    </header>
+    <div class="impression">
+        <div class="text">
+            <h1 style="font-size: 50px;">  Your Health, Your Voice: 
+                Welcome to the Future of Well-being.
+            </h1>
+            <p>we are dedicated to breaking barriers and fostering awareness about menstrual health, family planning, maternal and child health, and childhood disease prevention. We believe that knowledge is power, and we're here to empower women with the information and support they need.</p>
+        </div>
+        <div class="image">
+            <img src="./images/health_backgroun.jpg" style="width:500px; height:350px; border-radius:5%;" >
+        </div>
+    </div>
+    <div class="content">
+        <h3 style="margin-bottom:5%;">Our Featured Content</h3>
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center pagination-lg">
+                <li class="page-item active" aria-current="page">
+                    <span class="page-link" onclick="showPage('page1')">Audio</span>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" onclick="showPage('page2')">Video</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" onclick="showPage('page3')">Talks</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="tab-content tabs">
+            <div id="page1" class="tab-pane active">
+                <div class="set">
+                    <button class="a books"></button>
+                    <button class="b books"></button>
+                    <button class="c books"></button>
+                </div>
+            </div>
+            <div id="page2" class="tab-pane">
+                <div class="set">
+                    <button class="d books"></button>
+                    <button class="e books"></button>
+                    <button class="f books"></button>
+                </div>
+            </div>
+            <div id="page3" class="tab-pane">
+                <div class="set">
+                    <button class="g books"></button>
+                    <button class="h books"></button>
+                    <button class="i books"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Community">
+        <h3>Healthful Hearts Comunities</h3>
+        <div class="names">
+            <div id="carouselExample" class="carousel carousel-dark slide">
+                <div class="carousel-indicators indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex">
+                            <div class="card c1" style="width: 18rem; height: 22rem;">
+                                <img src="./images/community 1.jpeg" class="card-img-top" alt="..." width="275" height="183">
+                                <div class="card-body">
+                                  <h5 class="card-title">Community 1</h5>
+                                  <p class="card-text">Some quick example</p>
+                                  <a href="#" class="btn btn-primary">Know More</a>
+                                </div>
+                              </div>
+                              <div class="card c2" style="width: 18rem; height: 22rem;">
+                                <img src="./images/community 2.jpeg" class="card-img-top" alt="..." width="275" height="183">
+                                <div class="card-body">
+                                  <h5 class="card-title">Community 2</h5>
+                                  <p class="card-text">Some quick example text to build on the card title</p>
+                                  <a href="#" class="btn btn-primary">Know More</a>
+                                </div>
+                              </div>
+                              <div class="card c3" style="width: 18rem; height: 22rem;">
+                                <img src="./images/community 3.jpeg" class="card-img-top" alt="..." width="275" height="183">
+                                <div class="card-body">
+                                  <h5 class="card-title">Community 3</h5>
+                                  <p class="card-text">Some quick example</p>
+                                  <a href="#" class="btn btn-primary">Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex">
+                            <div class="card c3" style="width: 18rem; height: 22rem;">
+                                <img src="./images/community 3.jpeg" class="card-img-top" alt="..." width="275" height="183">
+                                <div class="card-body">
+                                  <h5 class="card-title">Community 3</h5>
+                                  <p class="card-text">Some quick example text to build on the card title </p>
+                                  <a href="#" class="btn btn-primary">Know More</a>
+                                </div>
+                              </div>
+                              <div class="card c4" style="width: 18rem; height: 22rem;">
+                                <img src="./images/community 4.jpeg" class="card-img-top" alt="..." width="275" height="183">
+                                <div class="card-body">
+                                  <h5 class="card-title">Community 4</h5>
+                                  <p class="card-text">Some quick example text to build on the card title </p>
+                                  <a href="#" class="btn btn-primary">Know More</a>
+                                </div>
+                              </div>
+                              <div class="card c5" style="width: 18rem; height: 22rem;">
+                                <img src="./images/community 5.jpeg" class="card-img-top" alt="..." width="275" height="183">
+                                <div class="card-body">
+                                  <h5 class="card-title">Community 5</h5>
+                                  <p class="card-text">Some quick example text to build on the card title </p>
+                                  <a href="#" class="btn btn-primary">Know More</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            
+        </div>
+    </div>
+    <footer>
+        <div class="first">
+        <span><a href="" style="color: #fff;">About Us</a></span>
+        <span><a href="" style="color: #fff;">Community</a></span>
+        </div>
+
+        <div class="Second">
+        <span><a href="" style="color: #fff;">Team Dairy</a></span>
+        <span><a href="" style="color: #fff;">Blog</a></span>
+        <span><a href="" style="color: #fff;">Our Services</a></span>
+        </div>
+
+        <div class="Third">
+        <span><a href="" style="color: #fff;">Terms and Coditions</a></span>
+        <span><a href="" style="color: #fff;">Privacy</a></span>
+        <span><a href="" style="color: #fff;">Contact us</a></span>
+        </div>
+
+        <div class="Forth">
+        <span><a href="" style="color: #fff;">Sitemap</a></span>
+        <span><a href="" style="color: #fff;">Help and Support</a></span>
+        </div>
+    </footer> 
+    <div class="contact">
+        <div class="social">
+        <a href="" style="padding: 10px;" ><img src="./images/Instagram.png"></a>
+        <a href="" style="padding: 10px;"><img src="./images/Twitter (1).png"></a>
+        <a href="" style="padding: 10px;"><img src="./images/Linkedin.png"></a>
+        </div>
+        <div class="copyright">
+        <span><img src="./images/Copyright.png" style="max-width: 8px; padding: 6px;">Copyright 2023 CureSpace</span>
+        </div>
+    </div>
+    <!--javascript sheet-->
+  <script src="curespace.js"></script>
+</body>
+</html>

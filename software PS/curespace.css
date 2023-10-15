@@ -1,0 +1,196 @@
+body{
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home{
+    display:flex;
+    align-items:flex-end;
+    justify-content: center;
+    column-gap: 50%;
+}
+.notification{
+    margin-left: 30%;
+    
+}
+.image{
+    border-radius: 15%;
+    margin-right:15%;
+}
+p{
+    font-size: 20px;
+    padding-top:10%;
+}
+.sections{
+    display: grid;
+    align-items: center;
+    grid-template-columns:repeat(10,1fr);
+    grid-auto-rows: minmax(100px,auto);
+    column-gap: 10%;
+}
+.impression{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:5%;
+    margin-bottom:2%;
+    margin-right:2%;
+    margin-top:2%;
+    column-gap:10%;
+}
+.text{
+    align-items: flex-start;
+    margin-bottom:10%;
+    margin-top:10%;
+}
+
+.image{
+    align-items: flex-end;
+    border-radius: 100%;
+    /* background-image: url("./images/health_backgroun.jpg"); */
+}
+.content{
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.tabs{
+    margin-top:3%;
+}
+.Community{
+    justify-content: center;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+h3{
+   font-size: 25px; 
+   margin-bottom:15%;
+   padding-bottom:10px;
+    
+}
+.names{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:5%;
+    margin-bottom:8%;
+    margin-right:5%;
+    margin-top:2%;
+}
+.a{
+    background-image: url("./images/audio.png");
+  }
+  
+.b{
+    background-image: url("./images/audio2.jpeg");
+  }
+  
+.c{
+    background-image: url("./images/audio3.jpg");
+  }
+.d{
+    background-image: url("./images/video.jpeg");
+} 
+.e{
+    background-image: url("./images/video2.jpg");
+} 
+.f{
+    background-image: url("./images/video3.jpeg");
+}
+.g{
+    background-image: url("./images/text.jpeg");
+}
+.h{
+    background-image: url("./images/text2.png");
+}
+.i{
+    background-image: url("./images/text3.jpeg");
+}
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  .books{
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    transition:0.3s ease-in-out;
+  }
+  .books:hover{
+    transition:0.3s ease-in-out(0.3s);
+    box-shadow: 0px 10px 20px rgba(245, 243, 243, 0.973);
+  }
+  .pressed{
+    transition:0.3s ease-in-out(0.3s);
+  }
+  .pressed:hover{
+    transition:0.3s ease-in-out(0.3s);
+    box-shadow: 0px 10px 20px rgba(245, 243, 243, 0.973);
+  }  
+.c1,.c2,.c3,.c4,.c5{
+    margin-left:3%;
+}
+.left_button{
+    color: black;
+    background-color: black;
+    background-color: transparent;
+}
+.right_button{
+    color: black;
+    background-color: black;
+}
+.indicators{
+    color:black;
+    border: 3px solid transparent;
+}
+.active-page {
+    color: rgb(95, 120, 195); /* Color for active page link */
+}
+
+.active-content {
+    background-color: #3498db; /* Background color for active page content */
+    color: white; /* Text color for active page content */
+}
+span{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+footer{
+    background-color: rgb(25, 38, 49);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.contact{
+    background-color: rgb(25, 38, 49);
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+footer span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 110%;
+}
+
+.contact span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    color: #fff
+} 
